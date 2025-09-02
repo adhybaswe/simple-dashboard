@@ -14,6 +14,7 @@ import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
 import Invoice from './pages/Invoice.tsx';
 import EditProfile from './pages/EditProfile.tsx';
+import NotificationsPage from './pages/Notifications.tsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: 'settings', element: <Settings /> },
       { path: 'invoice', element: <Invoice /> },
       { path: 'edit-profile', element: <EditProfile /> },
+      { path: 'notifications', element: <NotificationsPage /> },
     ],
   },
   {
