@@ -16,7 +16,7 @@ import { useSidebar } from "../contexts/sidebar-context";
 
 const data = {
   user: {
-    name: "shadcn",
+    name: "Mr.Example",
     email: "m@example.com",
     avatar: "https://i.pravatar.cc/150?img=58",
   },
@@ -55,7 +55,7 @@ const data = {
       ],
     },
     {
-      title: "Analytics",
+      title: "Invoice",
       url: "/invoice",
       icon: PieChart,
       items: [],
